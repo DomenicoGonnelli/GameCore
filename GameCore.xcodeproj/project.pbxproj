@@ -21,7 +21,7 @@
 		BF425A7E1D23B15800F48ED9 /* DeltaCoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF425A7D1D23B15800F48ED9 /* DeltaCoreProtocol.swift */; };
 		BF425A951D23BD8500F48ED9 /* EmulatorBridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF425A941D23BD8500F48ED9 /* EmulatorBridging.swift */; };
 		BF46349120D882F900CD12FD /* ControllerInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF46348E20D882F900CD12FD /* ControllerInputView.swift */; };
-		BF4689631AACF36800A2586D /* DeltaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4689621AACF36800A2586D /* DeltaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4689631AACF36800A2586D /* GameCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4689621AACF36800A2586D /* GameCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF4689821AAD703500A2586D /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4689811AAD703500A2586D /* GameProtocol.swift */; };
 		BF4696BC22F7DB98008DD7F2 /* ButtonsInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4696BB22F7DB98008DD7F2 /* ButtonsInputView.swift */; };
 		BF5027081F210B05007EF163 /* StandardGameControllerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5027071F210B05007EF163 /* StandardGameControllerInput.swift */; };
@@ -116,9 +116,9 @@
 		BF425A7D1D23B15800F48ED9 /* DeltaCoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeltaCoreProtocol.swift; sourceTree = "<group>"; };
 		BF425A941D23BD8500F48ED9 /* EmulatorBridging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmulatorBridging.swift; sourceTree = "<group>"; };
 		BF46348E20D882F900CD12FD /* ControllerInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerInputView.swift; sourceTree = "<group>"; };
-		BF46895D1AACF36800A2586D /* DeltaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeltaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF46895D1AACF36800A2586D /* GameCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4689611AACF36800A2586D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF4689621AACF36800A2586D /* DeltaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeltaCore.h; sourceTree = "<group>"; };
+		BF4689621AACF36800A2586D /* GameCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameCore.h; sourceTree = "<group>"; };
 		BF4689811AAD703500A2586D /* GameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		BF4696BB22F7DB98008DD7F2 /* ButtonsInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsInputView.swift; sourceTree = "<group>"; };
 		BF5027071F210B05007EF163 /* StandardGameControllerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardGameControllerInput.swift; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 		BF4689531AACF36800A2586D = {
 			isa = PBXGroup;
 			children = (
-				BF46895F1AACF36800A2586D /* DeltaCore */,
+				BF46895F1AACF36800A2586D /* GameCore */,
 				BF46895E1AACF36800A2586D /* Products */,
 				BFCBD91B20CC6F790028E309 /* Frameworks */,
 			);
@@ -251,15 +251,15 @@
 		BF46895E1AACF36800A2586D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF46895D1AACF36800A2586D /* DeltaCore.framework */,
+				BF46895D1AACF36800A2586D /* GameCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF46895F1AACF36800A2586D /* DeltaCore */ = {
+		BF46895F1AACF36800A2586D /* GameCore */ = {
 			isa = PBXGroup;
 			children = (
-				BF4689621AACF36800A2586D /* DeltaCore.h */,
+				BF4689621AACF36800A2586D /* GameCore.h */,
 				BF69FBBD23E39C9D0051BEEA /* DeltaTypes.h */,
 				BFD27EF61D261E9B00E081A3 /* DeltaTypes.m */,
 				BF785C9C1B603C1800189DB8 /* Delta.swift */,
@@ -275,7 +275,7 @@
 				BFEE12C71B602CBF00156A2C /* External */,
 				BF4689601AACF36800A2586D /* Supporting Files */,
 			);
-			path = DeltaCore;
+			path = GameCore;
 			sourceTree = "<group>";
 		};
 		BF4689601AACF36800A2586D /* Supporting Files */ = {
@@ -467,7 +467,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4689631AACF36800A2586D /* DeltaCore.h in Headers */,
+				BF4689631AACF36800A2586D /* GameCore.h in Headers */,
 				BF69FBBF23E39CA80051BEEA /* DeltaTypes.h in Headers */,
 				BF85F4792567494600E4D10E /* DLTAMuteSwitchMonitor.h in Headers */,
 			);
@@ -476,9 +476,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BF46895C1AACF36800A2586D /* DeltaCore */ = {
+		BF46895C1AACF36800A2586D /* GameCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF4689731AACF36800A2586D /* Build configuration list for PBXNativeTarget "DeltaCore" */;
+			buildConfigurationList = BF4689731AACF36800A2586D /* Build configuration list for PBXNativeTarget "GameCore" */;
 			buildPhases = (
 				BF4689581AACF36800A2586D /* Sources */,
 				BF4689591AACF36800A2586D /* Frameworks */,
@@ -490,9 +490,9 @@
 			dependencies = (
 				BFA07F07221F3A070012699D /* PBXTargetDependency */,
 			);
-			name = DeltaCore;
+			name = GameCore;
 			productName = DeltaCore;
-			productReference = BF46895D1AACF36800A2586D /* DeltaCore.framework */;
+			productReference = BF46895D1AACF36800A2586D /* GameCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -511,7 +511,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF4689571AACF36800A2586D /* Build configuration list for PBXProject "DeltaCore" */;
+			buildConfigurationList = BF4689571AACF36800A2586D /* Build configuration list for PBXProject "GameCore" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -531,7 +531,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				BF46895C1AACF36800A2586D /* DeltaCore */,
+				BF46895C1AACF36800A2586D /* GameCore */,
 			);
 		};
 /* End PBXProject section */
@@ -778,6 +778,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GameCore;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = FRAMEWORK;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -799,6 +800,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GameCore;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = FRAMEWORK;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -809,7 +811,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF4689571AACF36800A2586D /* Build configuration list for PBXProject "DeltaCore" */ = {
+		BF4689571AACF36800A2586D /* Build configuration list for PBXProject "GameCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF4689711AACF36800A2586D /* Debug */,
@@ -818,7 +820,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF4689731AACF36800A2586D /* Build configuration list for PBXNativeTarget "DeltaCore" */ = {
+		BF4689731AACF36800A2586D /* Build configuration list for PBXNativeTarget "GameCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF4689741AACF36800A2586D /* Debug */,

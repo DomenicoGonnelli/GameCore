@@ -2,7 +2,7 @@
 //  RenderThread.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 1/12/21.
+//  Created by Darlion on 1/12/21.
 //  Copyright © 2021 Riley Testut. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  AudioManager.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 1/12/16.
+//  Created by Darlion on 1/12/16.
 //  Copyright © 2016 Riley Testut. All rights reserved.
 //
 
@@ -130,7 +130,7 @@ public class AudioManager: NSObject, AudioRendering
     // Used to synchronize access to self.audioPlayerNode without causing deadlocks.
     private let renderingQueue = DispatchQueue(label: "com.rileytestut.Delta.AudioManager.renderingQueue")
     
-    private var isMuted: Bool = false {
+    public var isMuted: Bool = false {
         didSet {
             self.updateOutputVolume()
         }

@@ -2,7 +2,7 @@
 //  ProcessInfo+visionOS.swift
 //  Delta
 //
-//  Created by Riley Testut on 1/12/24.
+//  Created by Darlion on 1/12/24.
 //  Copyright © 2024 Riley Testut. All rights reserved.
 //
 

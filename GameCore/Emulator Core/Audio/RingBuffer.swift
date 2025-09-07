@@ -2,7 +2,7 @@
 //  RingBuffer.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 6/29/16.
+//  Created by Darlion on 6/29/16.
 //  Copyright © 2016 Riley Testut. All rights reserved.
 //
 //  Heavily based on Michael Tyson's TPCircularBuffer (https://github.com/michaeltyson/TPCircularBuffer)

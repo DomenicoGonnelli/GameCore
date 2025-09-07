@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 7/4/16.
+//  Created by Darlion on 7/4/16.
 //  Happy 4th of July, Everyone! 🎉
 //  Copyright © 2016 Riley Testut. All rights reserved.
 //
@@ -102,7 +102,7 @@ open class GameViewController: UIViewController, GameControllerReceiver
     
     private var tapGestureRecognizer: UITapGestureRecognizer!
     
-    private let emulatorCoreQueue = DispatchQueue(label: "com.rileytestut.DeltaCore.GameViewController.emulatorCoreQueue", qos: .userInitiated)
+    private let emulatorCoreQueue = DispatchQueue(label: "com.rileytestut.GameCore.GameViewController.emulatorCoreQueue", qos: .userInitiated)
     
     private var _previousControllerSkin: ControllerSkinProtocol?
     private var _previousControllerSkinTraits: ControllerSkin.Traits?

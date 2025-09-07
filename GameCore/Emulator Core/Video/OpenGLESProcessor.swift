@@ -2,7 +2,7 @@
 //  OpenGLESProcessor.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 4/8/19.
+//  Created by Darlion on 4/8/19.
 //  Copyright © 2019 Riley Testut. All rights reserved.
 //
 

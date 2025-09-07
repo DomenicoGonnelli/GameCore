@@ -2,7 +2,7 @@
 //  ControllerSkin.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 5/5/15.
+//  Created by Darlion on 5/5/15.
 //  Copyright © 2015 Riley Testut. All rights reserved.
 //
 

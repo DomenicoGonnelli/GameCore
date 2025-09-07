@@ -2,7 +2,7 @@
 //  UIImage+PDF.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 12/21/15.
+//  Created by Darlion on 12/21/15.
 //  Copyright © 2015 Riley Testut. All rights reserved.
 //
 //  Based on Erica Sadun's UIImage+PDFUtility ( https://github.com/erica/useful-things/blob/master/useful%20pack/UIImage%2BPDF/UIImage%2BPDFUtility.m )

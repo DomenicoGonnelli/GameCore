@@ -2,7 +2,7 @@
 //  GameProtocol.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 3/8/15.
+//  Created by Darlion on 3/8/15.
 //  Copyright (c) 2015 Riley Testut. All rights reserved.
 //
 

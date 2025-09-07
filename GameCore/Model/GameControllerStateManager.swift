@@ -2,7 +2,7 @@
 //  GameControllerStateManager.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 5/29/16.
+//  Created by Darlion on 5/29/16.
 //  Copyright © 2016 Riley Testut. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  ExtensibleEnum.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 6/9/18.
+//  Created by Darlion on 6/9/18.
 //  Copyright © 2018 Riley Testut. All rights reserved.
 //
 

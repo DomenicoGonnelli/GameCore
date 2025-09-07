@@ -2,7 +2,7 @@
 //  CGGeometry+Conveniences.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 12/19/15.
+//  Created by Darlion on 12/19/15.
 //  Copyright © 2015 Riley Testut. All rights reserved.
 //
 

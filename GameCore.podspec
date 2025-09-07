@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "14.0"
   spec.source       = { :git => "https://github.com/DomenicoGonnelli/GameCore.git" }
 
-  spec.author             = { "Domenico Gonnelli => "domenico.gonnelli@outlook.it" }
+  spec.author             = { "Domenico Gonnelli" => "domenico.gonnelli@outlook.it" }
   
   spec.source_files  = "GameCore/**/*.{h,m,swift}"
   spec.exclude_files = "GameCore/DeltaTypes.h", "GameCore/Emulator Core/Audio/DLTAMuteSwitchMonitor.h"

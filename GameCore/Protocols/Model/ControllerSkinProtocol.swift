@@ -61,7 +61,7 @@ public extension ControllerSkinProtocol
         return traits
     }
     
-    func gameScreenFrame(for traits: DeltaCore.ControllerSkin.Traits) -> CGRect?
+    func gameScreenFrame(for traits: GameCore.ControllerSkin.Traits) -> CGRect?
     {
         return self.screens(for: traits)?.first?.outputFrame
     }

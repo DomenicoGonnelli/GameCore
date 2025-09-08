@@ -51,8 +51,8 @@ let package = Package(
                 "Supporting Files/Info.plist",
             ],
             resources: [
-                .copy("Supporting Files/KeyboardGameController.deltamapping"),
-                .copy("Supporting Files/MFiGameController.deltamapping"),
+                .copy("Supporting Files/KeyboardGameController.dgmapping"),
+                .copy("Supporting Files/MFiGameController.dgmapping"),
             ],
             cSettings: [
                 .define("GLES_SILENCE_DEPRECATION"),

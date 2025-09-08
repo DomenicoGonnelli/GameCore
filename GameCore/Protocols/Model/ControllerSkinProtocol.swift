@@ -2,7 +2,7 @@
 //  ControllerSkinProtocol.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 10/13/16.
+//  Created by Darlion on 10/13/16.
 //  Copyright © 2016 Riley Testut. All rights reserved.
 //
 
@@ -61,7 +61,7 @@ public extension ControllerSkinProtocol
         return traits
     }
     
-    func gameScreenFrame(for traits: DeltaCore.ControllerSkin.Traits) -> CGRect?
+    func gameScreenFrame(for traits: GameCore.ControllerSkin.Traits) -> CGRect?
     {
         return self.screens(for: traits)?.first?.outputFrame
     }

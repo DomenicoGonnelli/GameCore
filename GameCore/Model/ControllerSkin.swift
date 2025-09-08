@@ -2,7 +2,7 @@
 //  ControllerSkin.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 5/5/15.
+//  Created by Darlion on 5/5/15.
 //  Copyright © 2015 Riley Testut. All rights reserved.
 //
 
@@ -78,22 +78,22 @@ public struct ControllerSkin: ControllerSkinProtocol
     {
         self.fileURL = fileURL
         
-        do
-        {
-            let archive = try Archive(url: fileURL, accessMode: .read)
-            self.archive = archive
-        }
-        catch
-        {
-            print("Failed to load controller skin.", error.localizedDescription)
+        
+        let archive = try? Archive(url: fileURL, accessMode: .read)
+        if let arc = archive {
+            self.archive = arc
+        } else{
+            print("Failed to load controller skin.")
             return nil
         }
         
-        guard let infoEntry = archive["info.json"] else { return nil }
+        
+        
+        guard let infoEntry = self.archive["info.json"] else { return nil }
         
         do
         {
-            let infoData = try archive.extract(infoEntry)
+            let infoData = try self.archive.extract(infoEntry)
             
             guard let info = try JSONSerialization.jsonObject(with: infoData) as? [String: AnyObject] else { return nil }
             

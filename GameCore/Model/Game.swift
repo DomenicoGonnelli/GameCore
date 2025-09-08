@@ -2,7 +2,7 @@
 //  Game.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 6/20/16.
+//  Created by Darlion on 6/20/16.
 //  Copyright © 2016 Riley Testut. All rights reserved.
 //
 

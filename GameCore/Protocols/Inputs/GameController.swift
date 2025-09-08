@@ -2,7 +2,7 @@
 //  GameController.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 5/3/15.
+//  Created by Darlion on 5/3/15.
 //  Copyright (c) 2015 Riley Testut. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  VideoBufferInfo.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 4/18/17.
+//  Created by Darlion on 4/18/17.
 //  Copyright © 2017 Riley Testut. All rights reserved.
 //
 

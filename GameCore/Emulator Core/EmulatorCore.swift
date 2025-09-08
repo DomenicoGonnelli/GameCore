@@ -2,7 +2,7 @@
 //  EmulatorCore.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 3/11/15.
+//  Created by Darlion on 3/11/15.
 //  Copyright (c) 2015 Riley Testut. All rights reserved.
 //
 
@@ -10,9 +10,9 @@ import AVFoundation
 
 extension EmulatorCore
 {
-    @objc public static let emulationDidQuitNotification = Notification.Name("com.rileytestut.DeltaCore.emulationDidQuit")
+    @objc public static let emulationDidQuitNotification = Notification.Name("com.rileytestut.GameCore.emulationDidQuit")
     
-    private static let didUpdateFrameNotification = Notification.Name("com.rileytestut.DeltaCore.didUpdateFrame")
+    private static let didUpdateFrameNotification = Notification.Name("com.rileytestut.GameCore.didUpdateFrame")
 }
 
 public extension EmulatorCore
@@ -83,7 +83,7 @@ public final class EmulatorCore: NSObject
     private var previousFrameDuration: TimeInterval? = nil
     
     private var reactivateInputsDispatchGroup: DispatchGroup?
-    private let reactivateInputsQueue = DispatchQueue(label: "com.rileytestut.DeltaCore.EmulatorCore.reactivateInputsQueue", attributes: [.concurrent])
+    private let reactivateInputsQueue = DispatchQueue(label: "com.rileytestut.GameCore.EmulatorCore.reactivateInputsQueue", attributes: [.concurrent])
     
     private let emulationLock = NSLock()
     
@@ -465,7 +465,7 @@ private extension EmulatorCore
 {
     func runGameLoop()
     {
-        let emulationQueue = DispatchQueue(label: "com.rileytestut.DeltaCore.emulationQueue", qos: .userInitiated)
+        let emulationQueue = DispatchQueue(label: "com.rileytestut.GameCore.emulationQueue", qos: .userInitiated)
         emulationQueue.async {
             
             let screenRefreshRate = 1.0 / 60.0

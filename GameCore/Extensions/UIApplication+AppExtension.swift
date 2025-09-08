@@ -2,7 +2,7 @@
 //  UIApplication+AppExtension.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 6/14/18.
+//  Created by Darlion on 6/14/18.
 //  Copyright © 2018 Riley Testut. All rights reserved.
 //
 

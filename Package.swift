@@ -4,21 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "DeltaCore",
+    name: "GameCore",
     platforms: [
         .iOS(.v14)
     ],
     products: [
-        .library(name: "DeltaCore", targets: ["DeltaCore", "CDeltaCore"]),
+        .library(name: "GameCore", targets: ["GameCore", "CGameCore"]),
     ],
     dependencies: [
         .package(name: "ZIPFoundation", url: "https://github.com/weichsel/ZIPFoundation.git", .upToNextMinor(from: "0.9.11"))
     ],
     targets: [
         .target(
-            name: "CDeltaCore",
+            name: "CGameCore",
             dependencies: [],
-            path: "DeltaCore",
+            path: "GameCore",
             exclude: [
                 "Delta.swift",
                 "Cores",
@@ -42,9 +42,9 @@ let package = Package(
             publicHeadersPath: "include"
         ),
         .target(
-            name: "DeltaCore",
-            dependencies: ["CDeltaCore", "ZIPFoundation"],
-            path: "DeltaCore",
+            name: "GameCore",
+            dependencies: ["CGameCore", "ZIPFoundation"],
+            path: "GameCore",
             exclude: [
                 "DeltaTypes.m",
                 "Emulator Core/Audio/DLTAMuteSwitchMonitor.m",

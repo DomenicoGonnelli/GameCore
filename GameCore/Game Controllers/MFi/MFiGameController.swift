@@ -2,7 +2,7 @@
 //  MFiGameController.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 7/22/15.
+//  Created by Darlion on 7/22/15.
 //  Copyright © 2015 Riley Testut. All rights reserved.
 //
 

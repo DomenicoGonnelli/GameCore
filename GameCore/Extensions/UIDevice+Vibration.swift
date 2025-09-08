@@ -2,7 +2,7 @@
 //  UIDevice+Vibration.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 11/28/16.
+//  Created by Darlion on 11/28/16.
 //  Copyright © 2016 Riley Testut. All rights reserved.
 //
 

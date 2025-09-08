@@ -2,7 +2,7 @@
 //  GameControllerInputMapping.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 7/22/17.
+//  Created by Darlion on 7/22/17.
 //  Copyright © 2017 Riley Testut. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  UIWindowScene+StageManager.swift
 //  DeltaCore
 //
-//  Created by Riley Testut on 8/1/22.
+//  Created by Darlion on 8/1/22.
 //  Copyright © 2022 Riley Testut. All rights reserved.
 //
 

@@ -119,8 +119,8 @@ public class MFiGameController: NSObject, GameController
     public let inputType: GameControllerInputType = .mfi
         
     public private(set) lazy var defaultInputMapping: GameControllerInputMappingProtocol? = {
-        guard let fileURL = Bundle.resources.url(forResource: "MFiGameController", withExtension: "deltamapping") else {
-            fatalError("MFiGameController.deltamapping does not exist.")
+        guard let fileURL = Bundle.resources.url(forResource: "MFiGameController", withExtension: "dgmapping") else {
+            fatalError("MFiGameController.dgmapping does not exist.")
         }
         
         do
@@ -131,7 +131,7 @@ public class MFiGameController: NSObject, GameController
         catch
         {
             print(error)
-            fatalError("MFiGameController.deltamapping does not exist.")
+            fatalError("MFiGameController.dgmapping does not exist.")
         }
     }()
     

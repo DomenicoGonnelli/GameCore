@@ -75,8 +75,8 @@ public class KeyboardGameController: UIResponder, GameController
     public let inputType: GameControllerInputType = .keyboard
     
     public private(set) lazy var defaultInputMapping: GameControllerInputMappingProtocol? = {
-        guard let fileURL = Bundle.resources.url(forResource: "KeyboardGameController", withExtension: "deltamapping") else {
-            fatalError("KeyboardGameController.deltamapping does not exist.")
+        guard let fileURL = Bundle.resources.url(forResource: "KeyboardGameController", withExtension: "dgmapping") else {
+            fatalError("KeyboardGameController.dgmapping does not exist.")
         }
         
         do
@@ -88,7 +88,7 @@ public class KeyboardGameController: UIResponder, GameController
         {
             print(error)
             
-            fatalError("KeyboardGameController.deltamapping does not exist.")
+            fatalError("KeyboardGameController.dgmapping does not exist.")
         }
     }()
     

@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "GameCore/DeltaTypes.h", "GameCore/Emulator Core/Audio/DLTAMuteSwitchMonitor.h"
   spec.public_header_files = "GameCore/include/*.h"
   spec.resource_bundles = {
-    "GameCore" => ["GameCore/**/*.deltamapping"]
+    "GameCore" => ["GameCore/**/*.dgmapping"]
   }
   
   spec.dependency "ZIPFoundation"

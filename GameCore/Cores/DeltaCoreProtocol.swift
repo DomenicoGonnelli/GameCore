@@ -32,6 +32,9 @@ public protocol DeltaCoreProtocol: CustomStringConvertible
     var emulatorBridge: EmulatorBridging { get }
     
     var resourceBundle: Bundle { get }
+    
+    var skinName: String {get}
+    var mappingName: String {get}
 }
 
 public extension DeltaCoreProtocol
@@ -67,6 +70,9 @@ public extension DeltaCoreProtocol
         
         return directoryURL
     }
+    
+    var skinName: String { "Standard" }
+    var mappingName: String { "Standard" }
 }
 
 public extension DeltaCoreProtocol

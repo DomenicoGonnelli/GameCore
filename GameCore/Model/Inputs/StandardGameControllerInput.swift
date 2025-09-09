@@ -79,7 +79,7 @@ public extension StandardGameControllerInput
         
         guard
             let deltaCore = Delta.core(for: gameType),
-            let fileURL = deltaCore.resourceBundle.url(forResource: "Standard", withExtension: "dgmapping")
+            let fileURL = deltaCore.resourceBundle.url(forResource: deltaCore.mappingName, withExtension: "dgmapping")
         else { fatalError("Cannot find Standard.dgmapping for game type \(gameType)") }
         
         do
